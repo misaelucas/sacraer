@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap");
+
+body {
+  background-color: #25355d !important;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 0%;
+  right: 0px;
+  z-index: 50;
+}
+
+.links {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1rem;
+  font-size: 1rem;
+   
+  
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar{
+    
+}
