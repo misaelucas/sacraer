@@ -21,16 +21,26 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1rem;
-  font-size: 1rem;
-   
   
+
+}
+
+.links:hover {
+  font-size: 1.2rem;
+  opacity: 0.7;
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.nav-bar{
-    
+.nav-bar {
+}
+
+
+
+
+@media all and (max-width:477px) {
+  .links {font-size: 14px !important; }
 }
