@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap");
 
 body {
-  background-color: #25355d !important;
+  background-color: rgba(37,53,93,255);
 }
 
 #map {
@@ -108,4 +108,17 @@ img {
   opacity: 1;
   color: white;
   background-color: #00a651;
+}
+
+.features {
+  
+  display: flex;
+  height: 400px;
+  text-align: center;
+  justify-content: center;
+}
+
+.especialidades {
+  font-size: 36px;
+  text-c
 }
