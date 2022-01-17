@@ -71,6 +71,8 @@ img {
   display: block;
 }
 
+.containerbloco { display: flex;
+}
 
 .botaoconsulta {
   opacity: 0.89;
