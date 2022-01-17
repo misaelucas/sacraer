@@ -3,10 +3,17 @@
   padding: 0;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap");
 
 body {
   background-color: #25355d !important;
+}
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
 }
 
 .whatsapp {
@@ -21,8 +28,6 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1rem;
-  
-
 }
 
 .links:hover {
@@ -38,9 +43,69 @@ body {
 .nav-bar {
 }
 
+.textobanner {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 42px;
+  line-height: 45px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 2px 3px 2px #767372;
+}
 
+.textobanner2 {
+  font-size: 20px;
+  line-height: 25px;
+  text-shadow: 2px 3px 2px #767372;
+  padding: 10px 0 15px;
+}
+.bg-image {
+  display: block;
+  position: relative;
+  display: inline-block;
+}
 
+.imagembanner2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-@media all and (max-width:477px) {
-  .links {font-size: 14px !important; }
+.bannerdois {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  overflow: visible;
+}
+.titulo {
+  font-size: 2.5rem;
+  color: whitesmoke;
+}
+
+img {
+  display: block;
+}
+
+.containerbloco {
+  display: flex;
+}
+
+.botaoconsulta {
+  opacity: 0.89;
+  background-color: #00a651;
+  font-weight: 400;
+  color: white;
+  text-shadow: none;
+  line-height: normal;
+}
+
+.botaoconsulta:hover {
+  opacity: 1;
+  color: white;
+  background-color: #00a651;
 }
