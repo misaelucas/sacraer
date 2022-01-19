@@ -96,7 +96,7 @@ body {
   width: 250px;
 }
 .box:hover {
-  transform: scale(1.5);
+  transform: scale(1.05);
 
 }
 .box {
