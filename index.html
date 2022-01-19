@@ -52,7 +52,9 @@
     </a>
 
     <div class="logo mt-6">
-      <a href="index.html"> <img class="imagem" width="300px;" src="/img/logofixado.png" /></a>
+      <a href="index.html">
+        <img class="imagem" width="300px;" src="/img/logofixado.png"
+      /></a>
     </div>
 
     <div class="cartoes mt-24">
@@ -63,7 +65,7 @@
           <div class="textobanner2"><p>Agende seu horário.</p></div>
           <div class="botaosinho">
             <button
-              class="botaoconsulta p-2 pl-5 pr-5 bg-green-600 text-white text-lg rounded-lg"
+              class="botaoconsulta p-2 pl-5 pr-5 bg-green-600  hover:bg-green-800 text-white text-lg rounded-lg"
             >
               Marcar online
             </button>
@@ -78,106 +80,65 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
 
-    <div class="grid grid-cols-1 gap-4 sm:grid-cols-3 bannerdois ml-6">
-      <div class="p-2 sm:p-10 text-center cursor-pointer">
-        <div
-          class="py-16 max-w-sm rounded shadow-lg text-white hover:bg-green-700 transition duration-500 text-white"
+    <div class="bannerdois overflow-hidden mt-14 mb-14">
+      <div class="box space-y-2 shadow-xl hover:bg-green-700">
+        <img
+          src="img/medico.png"
+          class="imagens-bannerdois"
+          alt="foto de um médico"
+        /><span class="texto-imagemdois font-bold text-xl text-white"
+          >Profissionais Capacitados</span
         >
-          <div class="space-y-10">
-            <img
-              src="img/medico.png"
-              class="imagembanner2"
-              alt=""
-              width="80px;"
-            />
-            <div class="px-6 py-4">
-              <div class="space-y-5">
-                <div class="font-bold text-xl mb-2">
-                  Profissionais Capacitados
-                </div>
-                <p class="text-white text-base">
-                  Os melhores médicos da região, várias especialidades clínicas
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <span class="texto2-imagem2 text-m text-white"
+          >O melhor atendimento de recepção e médico da região.</span
+        >
       </div>
-
-      <div class="p-2 sm:p-10 text-center cursor-pointer text-white">
-        <div
-          class="py-16 max-w-sm rounded overflow-hidden shadow-lg text-white hover:bg-green-700 transition duration-500"
+      <div class="box shadow-xl space-y-2 hover:bg-green-700">
+        <img
+          src="img/meninomascara.png"
+          alt="foto de um menino com uma máscara"
+          width="80px;"
+        />
+        <span class="texto-imagemdois font-bold text-xl text-white"
+          >Segurança</span
         >
-          <div class="space-y-10">
-            <div class="px-6 py-4">
-              <div class="space-y-5">
-                <img
-                  src="img/meninomascara.png"
-                  class="imagembanner2"
-                  alt=""
-                  width="100px;"
-                />
-                <div class="font-bold text-xl mb-2">Segurança</div>
-                <p class="text-base">
-                  Funcionários de máscara e ambiente bem higienizado.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <span class="texto2-imagem2 text-m text-white"
+          >Protocolos de segurança respeitados e ambiente higienizado.</span
+        >
       </div>
-
-      <div class="p-2 sm:p-10 text-center cursor-pointer translate-x-2">
-        <div
-          class="py-16 max-w-sm rounded shadow-lg text-white hover:bg-green-700 transition duration-500"
+      <div class="box shadow-xl space-y-2 hover:bg-green-700">
+        <img
+          src="img/computador.png"
+          alt="foto de um computador"
+          width="80px;"
+        />
+        <span class="texto-imagemdois font-bold text-xl text-white"
+          >Atendimento</span
         >
-          <div class="space-y-10 imagempc">
-            <img
-              src="img/computador.png"
-              alt=""
-              class="imagembanner2"
-              width="100px;"
-            />
-
-            <div class="px-6 py-4">
-              <div class="space-y-5">
-                <div class="font-bold text-xl mb-2 text-white">
-                  Marcação de Consultas
-                </div>
-                <p class="text-white text-base">Totalmente online</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <span class="texto2-imagem2 text-m text-white"
+          >Comunicação humanizada e possibilidade de marcar consultas
+          online.</span
+        >
       </div>
     </div>
 
-
-
-    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.5822596964226!2d-37.25031348444218!3d-9.37018380043937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7061fa62c74e5c1%3A0xba912f94fd94f973!2sCentro%20M%C3%A9dico%20Hebrom!5e0!3m2!1spt-BR!2sbr!4v1642432568542!5m2!1spt-BR!2sbr"
-      width="100%"
-      height="250"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-    ></iframe>
-
+    <div class="google-widget">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.5822596964226!2d-37.25031348444218!3d-9.37018380043937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7061fa62c74e5c1%3A0xba912f94fd94f973!2sCentro%20M%C3%A9dico%20Hebrom!5e0!3m2!1spt-BR!2sbr!4v1642432568542!5m2!1spt-BR!2sbr"
+        width="100%"
+        height="250"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </div>
 
     <div class="features mt-14">
       <div class="cartoesfeatures">
-        <h2 class="especialidades text-white">ESPECIALIDADES</h2>>
+        <h2 class="especialidades text-white">ESPECIALIDADES</h2>
+        >
       </div>
-    </div>  
+    </div>
 
-
-
-
-
-
-
-    
     <div class="footerzada">
       <footer class="flex flex-wrap items-center justify-between p-3 m-auto">
         <div
@@ -190,7 +151,10 @@
                   </ul> -->
           <ul class="flex mx-auto text-white text-center">
             <li class="p-2 cursor-pointer">
-              <a href="https://instagram.com/centromedicohebrom" target="_blank">
+              <a
+                href="https://instagram.com/centromedicohebrom"
+                target="_blank"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="fill-current text-white"
@@ -218,18 +182,19 @@
                     fillRule="evenodd"
                     clipRule="evenodd"
                   />
-                  </svg>
+                </svg>
               </a>
             </li>
           </ul>
-         
+
           <div class="flex mx-auto text-white text-center">
             Centro Médico Hebrom © 2021
           </div>
           <div class="flex mx-auto text-white text-center">
             <span>contato@centromedicohebrom.com.br</span>
           </div>
+        </div>
       </footer>
-
+    </div>
   </body>
 </html>
