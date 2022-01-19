@@ -95,7 +95,10 @@ body {
   text-align: center;
   width: 250px;
 }
+.box:hover {
+  transform: scale(1.5);
 
+}
 .box {
   width: 384px;
   height: 376px;
