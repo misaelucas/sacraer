@@ -69,6 +69,10 @@ body {
   display: inline-block;
 }
 
+.imagemlogo {
+  width: 200px;
+}
+
 .imagembanner2 {
   display: block;
   margin-left: auto;
@@ -88,7 +92,6 @@ body {
 
 .texto-imagemdois {
   padding: 10px 0 15px;
-
 }
 
 .texto2-imagem2 {
@@ -97,7 +100,6 @@ body {
 }
 .box:hover {
   transform: scale(1.05);
-
 }
 .box {
   width: 384px;
